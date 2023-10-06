@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+f85682c565ea17f360c248a029657ea2e760068a refs/remotes/origin/dependabot/npm_and_yarn/async-2.6.4
+4288997e52d54c55c073e9d02ed345aedb871d51 refs/remotes/origin/dependabot/npm_and_yarn/decode-uri-component-0.2.2
+0d7f9acba5d627fce0d1b2f4b335b8018753efad refs/remotes/origin/dependabot/npm_and_yarn/engine.io-and-socket.io-6.2.1
+dab64b7b1eb8fe0160a99bc545ade534f051b2a6 refs/remotes/origin/dependabot/npm_and_yarn/http-cache-semantics-4.1.1
+cab52ce9634ca055a60e668ef338f846875b50e1 refs/remotes/origin/dependabot/npm_and_yarn/json5-1.0.2
+1955cf57030e57be166abe0669a0492b3ff73a3c refs/remotes/origin/dependabot/npm_and_yarn/json5-and-angular-devkit/build-angular-2.2.3
+f8d52f37c323a4485f5f8c1f2c5d40d71dfb489e refs/remotes/origin/dependabot/npm_and_yarn/loader-utils-1.4.2
+ff3694c20afaf69bcdd4c2fd0001acda43ea14f7 refs/remotes/origin/dependabot/npm_and_yarn/minimist-1.2.6
+119cbe4dbf7eacc2cd65598fc326a20be9349483 refs/remotes/origin/dependabot/npm_and_yarn/node-forge-1.3.0
+74d2eb1bbd2a11c4b6d079474d27a7539ecf70ed refs/remotes/origin/dependabot/npm_and_yarn/socket.io-parser-4.0.5
+9abf70d5f04779c3b1d588692ec72a83f99b7614 refs/remotes/origin/dependabot/npm_and_yarn/ua-parser-js-0.7.33
+04e451b81c023c9d7fac5383119c872d92e0aae8 refs/remotes/origin/master
