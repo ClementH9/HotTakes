@@ -1,16 +1,14 @@
-const express = require ('express')
+const express = require ('express');
 const mongoose = require('mongoose');
-const bodyParser = require ('body-parser')
+const bodyParser = require ('body-parser');
 
-const Sauce = require ('./models/sauce')
+const Sauce = require ('./models/sauce');
 
-mongoose.connect('mongodb+srv://jimbob:<atlasAdminClassrooms59>@admin/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://ClementH9:OpenClassrooms59@cluster0.k8lz0bp.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
-
-const express = require('express');
 
 const app = express();
 
@@ -22,8 +20,9 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
     next();
   });
+  
 
-app.get('/api/sauces', (req, res, next) => {
+/* app.get('/api/sauces', (req, res, next) => {
     const stuff = [
       {
         _id: 'oeihfzeoi',
@@ -62,6 +61,6 @@ app.get('/api/sauces', (req, res, next) => {
     res.status(201).json({
       message: 'Objet créé !'
     });
-  });
+  }); */
 
 module.exports = app;
