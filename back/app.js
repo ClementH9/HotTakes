@@ -2,6 +2,7 @@ const express = require ('express');
 const bodyParser = require ('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
+const mongooseExpressErrorHandler = require("mongoose-express-error-handler"); 
 
 const sauceRoutes = require ('./routes/sauce');
 const userRoutes = require ('./routes/user');
@@ -15,6 +16,7 @@ mongoose.connect('mongodb+srv://ClementH9:OpenClassrooms59@cluster0.k8lz0bp.mong
 const app = express();
 
 app.use(express.json());
+app.use(mongooseExpressErrorHandler);
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
