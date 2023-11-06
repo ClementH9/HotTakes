@@ -1,9 +1,13 @@
+// Importation du module Express pour créer un routeur Express
 const express = require('express');
 const router = express.Router();
 
-const userCtrl = require("../controllers/user");
+// Importation du contrôleur utilisateur (userCtrl)
+const userCtrl = require('../controllers/user');
 
-router.post('/signup', userCtrl.signup);
-router.post('/login', userCtrl.login);
+// Définition des routes pour l'inscription et la connexion d'un utilisateur
+router.post('/signup', userCtrl.signup); // Route pour l'inscription
+router.post('/login', userCtrl.login); // Route pour la connexion
 
+// Exportation du routeur
 module.exports = router;
